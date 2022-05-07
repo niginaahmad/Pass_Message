@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(203, 255, 192);
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.container{
+text-align:center;
+border-radius:10px;
+border: 1-x solid black;
+background-color: rgb(240, 221, 183);
+width: 60%;
+margin: 40px auto;
+height: 40vh;
+position:relative;
+}
+
+.container #input{
+  width: 80%;
+  height: 40px;
+  font-size: 25px;
+}
+
+.container #submit {
+  font-size: 20px;
+  color: rgb(110, 232, 136);
+  background-color: rgb(84, 38, 38);
+  border: 2px solid rgb(110, 232, 136);
+  border-radius: 15%;
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container #submit:hover{
+  background-color: white;
+  color: black;
+}
+
+.container #errorMsg {
+  display:none;
+  background-color: red;
+  color:white;
+  padding: 10px;
+  width:80%;
+  margin: auto;
+}
